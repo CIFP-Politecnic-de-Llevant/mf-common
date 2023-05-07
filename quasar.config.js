@@ -55,7 +55,7 @@ module.exports = configure(function (ctx) {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
 
       // transpile: false,
-      publicPath: `/`,
+      // publicPath: `/`,
 
       // Add dependencies for transpiling with Babel (Array of string/regex)
       // (from node_modules, which are by default not transpiled).
@@ -63,7 +63,7 @@ module.exports = configure(function (ctx) {
       // transpileDependencies: [],
 
       // rtl: true, // https://quasar.dev/options/rtl-support
-      // preloadChunks: true,
+      //preloadChunks: true,
       // showProgress: false,
       // gzip: true,
       // analyze: true,
@@ -81,11 +81,11 @@ module.exports = configure(function (ctx) {
             name: 'app_common',
             filename: 'remoteEntry.js',
             exposes: {
-              './HomePage.vue': './src/pages/IndexPage.vue',
-              './Prova.vue':'./src/components/ExampleComponent.vue',
-              './Login.vue':'./src/pages/Login.vue',
-              './Logout.vue':'./src/pages/Logout.vue',
-              './Menu.vue':'./src/components/AppsMenu.vue'
+              // './HomePage.vue': './src/pages/IndexPage.vue',
+              // './Prova.vue':'./src/components/ExampleComponent.vue',
+              // './Login.vue':'./src/pages/Login.vue',
+              // './Logout.vue':'./src/pages/Logout.vue',
+              './Menuapp.vue':'./src/components/AppsMenu.vue'
             },
             shared: {
               ...dependencies,
