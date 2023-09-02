@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Gestió d'usuaris Gestib i GSuite: administració i sincronització entre Gestib i GSuite.",
   "productName": "Gestió d'usuaris Gestib i GSuite",
-  "author": "jgalmes1@iesmanacor.cat",
+  "author": "jgalmes@politecnicllevant.cat",
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
